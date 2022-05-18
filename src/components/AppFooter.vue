@@ -9,6 +9,7 @@
                 <a href="">SIGN-UP NOW!</a>
             </div>
             <div class="footer-social">
+                <p>FOLLOW US</p>
 
             </div>
 
@@ -22,6 +23,11 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer {
     &__bottom {
         height: 100px;

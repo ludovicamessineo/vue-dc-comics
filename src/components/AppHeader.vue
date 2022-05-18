@@ -98,6 +98,12 @@ export default {
       font-size: 0.8rem;
       font-weight: 500;
       color: #303030;
+
+    &.active {
+        color: #0282f9;;
+    }
+
+        
     }
   }
 }
